@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>FrozenForge.DataProtection.AesExtensionTest</PackageId>
+    <Description>DataProtection method using AES encryption and a string secret. I just got annoyed by the limited file system or Azure options I had.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Jóhann Sigurðsson</Authors>
+    <Company>Frozen Forge</Company>
+    <PackageProjectUrl>https://github.com/JohannSig/DataProtection</PackageProjectUrl>
+    <Copyright>Jóhann Sigurðsson</Copyright>
+    <RepositoryUrl>https://github.com/JohannSig/DataProtection</RepositoryUrl>
+    <Version>1.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
