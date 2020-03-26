@@ -13,4 +13,5 @@ Here's an example where I configure an ASP.NET Core 3.1 project to persist (save
  services
   .AddDataProtection()
   .PersistKeysToDbContext<YourDbContextType>() 
-  .ProtectKeysWithAesEncryptedSecret(dataProtectionSection.GetValue<string>("Secret")); // ← Oh boy! ```
+  .ProtectKeysWithAesEncryptedSecret(dataProtectionSection.GetValue<string>("Secret")); // ← Oh boy!
+   ```
