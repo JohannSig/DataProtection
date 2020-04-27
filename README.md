@@ -15,3 +15,5 @@ Here's an example where I configure an ASP.NET Core 3.1 project to persist (save
   .PersistKeysToDbContext<YourDbContextType>() 
   .ProtectKeysWithAesEncryptedSecret(dataProtectionSection.GetValue<string>("Secret")); // ← Oh boy!
    ```
+
+If you're using this, then I'd love to hear about it (code feedback too!). First NuGet package and I'm baffled by the number of downloads.
