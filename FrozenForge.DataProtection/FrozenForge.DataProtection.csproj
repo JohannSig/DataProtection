@@ -11,12 +11,13 @@
     <PackageProjectUrl>https://github.com/JohannSig/DataProtection</PackageProjectUrl>
     <Copyright>Jóhann Sigurðsson</Copyright>
     <RepositoryUrl>https://github.com/JohannSig/DataProtection</RepositoryUrl>
-    <Version>1.0.0</Version>
+    <Version>3.1.3</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>dataprotection protect encrypt aes secret</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="3.1.3" />
   </ItemGroup>
 
 </Project>
